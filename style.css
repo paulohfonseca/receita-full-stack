@@ -1,0 +1,46 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+:root {
+    font-size: 62.5%;
+    font-family: 'Alice', sans-serif;
+    line-height: 150%;
+    
+    --title: #291B1A;
+    --text: #573A37;
+    --bg-page: #F0E8C2;
+    --background-color: #573824;
+}
+
+body {
+    background-image: url(./assets/bg-image.jpg);
+    background-size: cover;
+}
+
+#page {
+    width: 80rem;
+    padding: 2.4rem;
+    margin: 4.8rem auto;
+    border-radius: 2.4rem;
+    background-color: var(--bg-page);
+}
+
+img {
+    border-radius: 1.6rem;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 140%;
+    color: var(--title);
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
