@@ -3,12 +3,13 @@
     padding: 0;
     box-sizing: border-box;
  }
+
 :root {
     font-size: 62.5%;
     font-family: 'Alice', sans-serif;
     line-height: 150%;
     
-    --title: #291B1A;
+    --titles: #291B1A;
     --text: #573A37;
     --bg-page: #F0E8C2;
     --background-color: #573824;
@@ -31,16 +32,39 @@ img {
     border-radius: 1.6rem;
 }
 
+main {
+    padding: 2.4rem;
+}
+
+section + section {
+    margin-top: 2.4rem;
+}
+
+/* pegue o P que anteriormente tenha outro P */
+#about p + p {
+    margin-top: 1.2rem;
+}
+
 h1 {
     font-size: 4rem;
-    line-height: 140%;
+}
+
+h1, h2 {
+    margin-bottom: 0.4rem;
     color: var(--title);
+    line-height: 150%;
 }
 
 p {
     font-size: 1.6rem;
+    color: var(--text);
+
 }
 
 h2 {
     font-size: 2.4rem;
+}
+
+ul {
+    padding-left: 2.4rem;
 }
